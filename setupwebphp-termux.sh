@@ -6,12 +6,22 @@ echo "YouTube : https://youtube.com/@snipavn205"
 echo "Discord : https://dsc.gg/servertipacvn"
 echo "[ Code By SNIPA VN ]"
 echo "------------------------"
+echo "------------------------"
+echo "Lưu ý code chỉ dành cho termux"
 
 clear
+echo " Đang tải ngrok...."
+pkg update -y
+pkg install git
+git clone https://github.com/Yisus7u7/termux-ngrok
+cd termux-ngrok
+bash install.sh
+echo "Đã Tải Xong"
+cd
 mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
 cd PhpWebhost && curl -O WebsitePHPBYSnipavn.zip https://github.com/Snipavn/Webhost-PHP/raw/refs/heads/main/WebsitePHPBYSnipavn.zip
+unzip
 echo " Tải thành công "
-echo " Lưu Ý phải cài ngrok để vào được trang web code do chủ kênh để nha"
 ls
