@@ -21,6 +21,7 @@ echo " Bắt đầu tải package "
 pkg install unzip
 apt install php
 apt install nginx
+echo " Đã Tải xong Package"
 cd
 mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
