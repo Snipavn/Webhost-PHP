@@ -31,6 +31,13 @@ cd PhpWebhost && curl -o WebsitePHPBYSnipavn.zip https://github.com/Snipavn/Webh
 unzip /PhpWebhost/WebsitePHPBYSnipavn.zip && rm /PhpWebhost/WebsitePHPBYSnipavn.zip
 echo " Tải thành công "
 ls
+clear
+echo "SNIPA VN"
+echo "YouTube : https://youtube.com/@snipavn205"
+echo "Discord : https://dsc.gg/servertipacvn"
+echo "[ Code By SNIPA VN ]"
+echo "------------------------"
+echo "------------------------"
 echo "Done ✔️"
 echo "Hãy mở 1 session mới termux rồi nhập lệnh 'cd termux-ngrok && ./ngrok http 8080'"
 echo "Sau khi mở ngrok bên session mới rồi thì hãy quay lại session cũ , muốn khới động website nhập lệnh 'cd /PhpWebhost/ && sh start.sh' . Làm sao để tắt Website , Ấn Ctrl + C để tắt"
