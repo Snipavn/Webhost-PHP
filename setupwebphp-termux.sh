@@ -26,6 +26,9 @@ mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
 cd PhpWebhost && curl -O WebsitePHPBYSnipavn.zip https://github.com/Snipavn/Webhost-PHP/raw/refs/heads/main/WebsitePHPBYSnipavn.zip
-unzip /PhpWebhost/WebsitePHPBYSnipavn.zip
+unzip /PhpWebhost/WebsitePHPBYSnipavn.zip && rm /PhpWebhost/WebsitePHPBYSnipavn.zip
 echo " Tải thành công "
 ls
+echo "Done ✔️"
+echo "Hãy mở 1 session mới termux rồi nhập lệnh 'cd termux-ngrok && ./ngrok http 8080'"
+echo "Sau khi mở ngrok bên session mới rồi thì hãy quay lại session cũ , muốn khới động website nhập lệnh 'cd /PhpWebhost/ && sh start.sh' . Làm sao để tắt Website , Ấn Ctrl + C để tắt"
