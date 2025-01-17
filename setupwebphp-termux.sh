@@ -27,7 +27,7 @@ cd
 mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
-cd PhpWebhost && curl -O WebsitePHPBYSnipavn.zip https://github.com/Snipavn/Webhost-PHP/raw/refs/heads/main/WebsitePHPBYSnipavn.zip
+cd PhpWebhost && curl -o WebsitePHPBYSnipavn.zip https://github.com/Snipavn/Webhost-PHP/raw/refs/heads/main/WebsitePHPBYSnipavn.zip
 unzip /PhpWebhost/WebsitePHPBYSnipavn.zip && rm /PhpWebhost/WebsitePHPBYSnipavn.zip
 echo " Tải thành công "
 ls
