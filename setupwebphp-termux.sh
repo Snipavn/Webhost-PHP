@@ -8,7 +8,8 @@ echo "[ Code By SNIPA VN ]"
 echo "------------------------"
 echo "------------------------"
 echo "Lưu ý code chỉ dành cho termux"
-
+echo "Chờ 3s để vào cài đặt"
+sleep 3
 clear
 echo " Đang tải ngrok và các package khác...."
 apt update -y && apt upgrade
