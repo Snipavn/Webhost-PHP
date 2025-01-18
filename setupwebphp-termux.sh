@@ -17,7 +17,10 @@ pkg install git
 git clone https://github.com/Yisus7u7/termux-ngrok
 cd termux-ngrok
 bash install.sh
-echo "Đã Tải Xong Ngrok"
+echo -e "${YELLOW}Nhập Ngrok Của bạn vào đây"
+read ngroktoken
+./ngrok config add-authtoken $ngroktoken
+echo "Đã Tải Xong Ngrok và add token của bạn"
 echo " Bắt đầu tải package "
 pkg install unzip
 apt install php
