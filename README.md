@@ -5,7 +5,7 @@ _____________________________
 _____________________________
 Lệnh download dành cho termux (nếu chưa tải package và ngrok): 
 ```
-curl -o setupwebphp-termux.sh https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/setupwebphp-termux-package.sh && chmod +rwx setupwebphp-termux-package.sh && ./setupwebphp-termux-package.sh && rm setupwebphp-termux-package.sh
+curl -o setupwebphp-termux-package.sh https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/setupwebphp-termux-package.sh && chmod +rwx setupwebphp-termux-package.sh && ./setupwebphp-termux-package.sh && rm setupwebphp-termux-package.sh
 ```
 Lệnh download dành cho termux (nếu đã tải package với ngrok rồi):
 ```
