@@ -31,7 +31,7 @@ mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
 cd PhpWebhost && curl -o a.zip https://download1334.mediafire.com/qlb40nq0x7rgfT1ByZMOiL4EPUAmccD4dRU19heKWuskxLQEJfzXrSZiA4cksW5Ry1a60QCEsmvj0cEm0DNvO-zJ81suXx1NTQgruLx--jlpJApn85U7hRTKIrn3VZidZb8-3kXW1vOpwLGPyUO_Kog2jUC-IcY6cRW8y9VxGUOv/p0r3fqbb102n41e/WebsitePHPBYSnipavn+%281%29.zip
-unzip a.zip && rm a.zip
+unzip a.zip && rm a.zip && rm start.sh && curl -o start.sh https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/start.sh
 cd
 echo " Tải thành công "
 ls
