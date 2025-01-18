@@ -25,7 +25,7 @@ read ngroktoken
 ./ngrok config add-authtoken $ngroktoken
 echo "Đã Tải Xong Ngrok và add token của bạn"
 echo " Bắt đầu tải package "
-pkg install unzip
+apt install p7zip -y
 apt install php
 apt install nginx
 echo " Đã Tải xong Package"
