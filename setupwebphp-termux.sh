@@ -8,8 +8,9 @@ echo "[ Code By SNIPA VN ]"
 echo "------------------------"
 echo "------------------------"
 echo "Lưu ý code chỉ dành cho termux"
-echo "Chờ 3s để vào cài đặt"
-sleep 3
+echo "Nếu bạn dùng lệnh này lại thì nó sẽ xoá thư mục PhpWebhost"
+echo "Chờ 5s để vào cài đặt"
+sleep 5
 clear
 echo " Đang tải ngrok và các package khác...."
 apt update -y && apt upgrade
@@ -28,6 +29,7 @@ apt install php
 apt install nginx
 echo " Đã Tải xong Package"
 cd
+rm -rf PhpWebhost
 mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
