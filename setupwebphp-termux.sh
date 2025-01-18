@@ -36,6 +36,7 @@ cd
 echo " Tải thành công "
 ls
 clear
+echo "------------------------"
 echo "SNIPA VN"
 echo "YouTube : https://youtube.com/@snipavn205"
 echo "Discord : https://dsc.gg/servertipacvn"
