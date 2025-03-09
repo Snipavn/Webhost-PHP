@@ -16,6 +16,7 @@ clear
 echo " Đang tải ngrok và các package khác...."
 apt update -y && apt upgrade
 pkg update -y
+pkg install wget
 pkg install git
 git clone https://github.com/Yisus7u7/termux-ngrok
 cd termux-ngrok
