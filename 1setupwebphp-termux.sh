@@ -18,8 +18,8 @@ rm -rf PhpWebhost
 mkdir PhpWebhost
 echo -e " ${YELLOW} Thư mục mới tạo tên là PhpWebhost "
 echo " Bắt đầu tải xuống.... "
-cd PhpWebhost && curl -o a.7z https://download1321.mediafire.com/so4391hjc8mge9BY9z9DNtlrjVhqLaRBkzz8WKZtIfC5Jg_9LH0OF0e9kOecuMq8SWYQyCJwyy3VMCZ9kDgtyjLCJd_sU0MbkOQTbZRiFRBdvsWy220vXANNLQOP4iRN1ubCFUTr-uoG42FNTabdbKyYJiCFcPlkFStZSLsOxDA/reb1ywqhb6aqqis/WebhostBySnipavn.7z
-7z x a.7z && rm a.7z && curl -o start.sh https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/start.sh
+cd PhpWebhost && wget -O a.7z https://archive.org/download/webhost-by-snipavn.-7z/WebhostBySnipavn.7z
+7z x a.7z && rm a.7z && wget -O start.sh https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/start.sh
 cd
 echo " Tải thành công "
 ls
