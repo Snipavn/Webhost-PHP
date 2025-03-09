@@ -8,7 +8,7 @@ _____________________________
 apt install curl -y && bash <(curl -Ls https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/setupwebhost-php-ubuntu.sh)
 ```
 - Lệnh download dành cho termux (nếu chưa tải package và ngrok):
-```
+
 ```
 apt install -y curl && bash <(curl -Ls https://raw.githubusercontent.com/Snipavn/Webhost-PHP/refs/heads/main/setupwebphp-termux-package.sh)
 ```
